@@ -1,10 +1,10 @@
 <script setup>
-import TheLoading from '../components/Loading/TheLoading.vue'
+
 </script>
 
 <template>
   <div>
-    <TheLoading />
+    <span>你好这里是loading</span>
   </div>
 </template>
 
