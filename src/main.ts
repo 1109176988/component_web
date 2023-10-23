@@ -14,6 +14,10 @@ const app = createApp(App)
 
 app.use(createPinia())
 
+import hljs from 'highlight.js';
+import 'highlight.js/styles/default.css';
+app.config.globalProperties.$hljs = hljs;
+
 app.use(router)
 // loading
 app.directive('loading',loadingDirective)

@@ -25,6 +25,7 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/drawer">drawer</RouterLink>
         <RouterLink to="/loading">loading</RouterLink>
         <RouterLink to="/typewriter">typewriter</RouterLink>
+        <RouterLink to="/likoutopic">likoutopic</RouterLink>
       </nav>
     </div>
   </header>
